@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+        <title>Earl the Cat!</title>
+        <!--[if lt IE 9]>
+            <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js">var IE7_PNG_SUFFIX = ".png";</script>
+        <![endif]-->
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8">
+        <!--[if lt IE 7]>
+            <link rel="stylesheet" type="text/css" href="css/ie6.css" />
+        <![endif]-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="js/cat-controller.js"></script>
+    </head>
+
+    <body>
+        <div id="content">
+            <h1>Earl the Cat</h1>
+            <div id="earl-play-area" class="play-area">
+                <div class="control-panel">
+                    <h2>Control Panel</h2>
+                    <button data-action="fade">Fade</button>
+                    <button data-action="jump">Jump</button>
+                </div>
+                <div class="catland">
+                    <!--<img src="img/earl.png" class="cat"/>-->
+                    <div class="cat"></div>
+                </div>
+            </div>
+            <div id="credit">
+                <span>Eventbrite Front End Quiz | 2013 | Karen Rustad</span>
+            </div>
+        </div>
+    </body>
+</html>

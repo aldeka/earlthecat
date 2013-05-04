@@ -1,0 +1,89 @@
+body {
+    background: #ff5603 url('../img/bg-stripe.png') repeat-x;
+    color: black;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 14pt;
+}
+
+#content {
+    background: white;
+    margin: 0 auto;
+    width: 800px;
+    padding: 20px 20px 0 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+#earl-play-area {
+    width: 100%;
+    height: 500px;
+}
+
+.control-panel {
+    width: 200px;
+    padding: 20px;
+    height: 456px;
+    border: 2pt dotted #686868;
+    float: left;
+}
+
+.control-panel button {
+    background: #c6c6c6;
+    border-top: 2pt solid #d8d8d8;
+    border-left: 2pt solid #d8d8d8;
+    border-bottom: 2pt solid #707070;
+    border-right: 2pt solid #707070;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 150px;
+    padding: 5px;
+    margin: 0 auto 20px auto;
+    display: block;
+}
+
+.control-panel button:hover {
+    background: #d3d3d3;
+}
+
+.control-panel button:active, .control-panel button.disabled {
+    background: #e0e0e0;
+    border-top: 2pt solid #b0b0b0;
+    border-left: 2pt solid #b0b0b0;
+    border-bottom: 2pt solid #f0f0f0;
+    border-right: 2pt solid #f0f0f0;
+}
+
+.control-panel button.disabled {
+    color: grey;
+}
+
+.catland {
+    height: 100%;
+    margin-left: 260px;
+    position: relative;
+    background: url('../img/bg-catland.png') repeat-x;
+}
+
+.catland .cat {
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    width: 83px;
+    height: 121px;
+    background: url('../img/earl.png') no-repeat;
+}
+
+#credit {
+    font-size: .55em;
+    text-align: center;
+    font-weight: bold;
+}
